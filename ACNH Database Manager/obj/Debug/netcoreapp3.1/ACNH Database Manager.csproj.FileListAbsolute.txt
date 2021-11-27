@@ -1,0 +1,21 @@
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\bin\Debug\netcoreapp3.1\ACNH Database Manager.exe
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\bin\Debug\netcoreapp3.1\ACNH Database Manager.deps.json
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\bin\Debug\netcoreapp3.1\ACNH Database Manager.runtimeconfig.json
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\bin\Debug\netcoreapp3.1\ACNH Database Manager.runtimeconfig.dev.json
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\bin\Debug\netcoreapp3.1\ACNH Database Manager.dll
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\bin\Debug\netcoreapp3.1\ACNH Database Manager.pdb
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\obj\Debug\netcoreapp3.1\ACNH Database Manager.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\obj\Debug\netcoreapp3.1\ACNH Database Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\obj\Debug\netcoreapp3.1\ACNH Database Manager.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\obj\Debug\netcoreapp3.1\ACNH Database Manager.AssemblyInfo.cs
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\obj\Debug\netcoreapp3.1\ACNH Database Manager.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\obj\Debug\netcoreapp3.1\ACNH Database Manager.dll
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\obj\Debug\netcoreapp3.1\ACNH Database Manager.pdb
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\obj\Debug\netcoreapp3.1\ACNH Database Manager.genruntimeconfig.cache
+C:\Users\Student\source\repos\side-projects\ACVillagersAPI\ACNH Database Manager\obj\Debug\netcoreapp3.1\ACNH Database Manager.csproj.CopyComplete
