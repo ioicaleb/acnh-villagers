@@ -16,7 +16,7 @@ namespace ACVillagersAPI.Controllers
         private IVillagerSqlDAO villagerSqlDAO = new VillagerSqlDAO();
         private IVillagerOTDSqlDAO votdSqlDAO = new VillagerOTDSqlDAO();
 
-        [HttpGet]
+        [HttpGet("")]
         public ActionResult GetVillagers()
         {
             Dictionary<string, Villager> villagers = villagerSqlDAO.GetVillagers();

@@ -56,8 +56,25 @@ namespace ACVillagersAPI
             {
                 Villager villager = null;
                 conn.Open();
-                using SqlCommand command = new SqlCommand(GetVillager + " WHERE birthday LIKE @birthday + '%'", conn);
-                command.Parameters.AddWithValue("@birthday", DateTime.Today.ToString("M"));
+                string birthdayQuery = GetVillager + " WHERE birthday LIKE @birthday";
+                string todayDate = DateTime.Today.ToString("M");
+                switch(todayDate.Substring(todayDate.Length - 2, 2))
+                {
+                    case " 1":
+                        todayDate += "st";
+                        break;
+                    case " 2":
+                        todayDate += "nd";
+                        break;
+                    case " 3":
+                        todayDate += "rd";
+                        break;
+                    default:
+                        todayDate += "th";
+                        break;
+                }
+                using SqlCommand command = new SqlCommand(birthdayQuery, conn);
+                command.Parameters.AddWithValue("@birthday", todayDate);
                 SqlDataReader reader = command.ExecuteReader();
                 while (reader.Read())
                 {
