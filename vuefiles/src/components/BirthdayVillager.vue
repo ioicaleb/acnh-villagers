@@ -1,7 +1,8 @@
 <template>
   <aside class="birthday">
-    <img 
-    :src="image" />
+    <router-link v-bind:to="{name:'Copper', params: {villagerName: villager.Name}}">
+    <img v-bind:src="image" />
+    </router-link>
     <h2>Happy birthday, {{ villager.name }}!</h2>
   </aside>
 </template>
@@ -34,4 +35,12 @@ export default {
 </script>
 
 <style>
+.birthday{
+  background-color: #dba759;
+  color: #542312;
+  border: 2px solid #542312;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
 </style>

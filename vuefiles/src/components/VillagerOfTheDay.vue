@@ -30,5 +30,12 @@ export default {
 </script>
 
 <style>
-
+.villagerOfTheDay{
+  background-color: #dba759;
+  color: #542312;
+  border: 2px solid #542312;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
 </style>

@@ -8,14 +8,14 @@ Vue.use(VueRouter);
 const routes = [
         {
             path: '/',
-            name: 'home',
+            name: 'Home',
             component: HomeView,
         },
         {
             path: '/copper/:villagerName',
-            name: 'copper',
+            name: 'Copper',
             component: CopperView,
-        }
+        },
     ]
     const router = new VueRouter({
         mode: 'history',

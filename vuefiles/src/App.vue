@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img id="topLogo" src="./assets/NewHorizons.png" />
+    <router-link :to="{name: 'Home'}"><img id="topLogo" src="./assets/NewHorizons.png" /></router-link>
     <router-view />
   </div>
 </template>
@@ -29,26 +29,7 @@ html {
   color: #816359;
   margin-top: 60px;
 }
-
-body {
-  display: flex;
-  flex-flow: column wrap;
-}
-
 #topLogo {
   height: 200px;
-}
-
-.featuredVillagers{
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-evenly;
-}
-
-.searchBars{
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-evenly;
-  flex-basis: 30% 30% 30%;
 }
 </style>

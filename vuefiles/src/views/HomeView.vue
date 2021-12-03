@@ -1,5 +1,5 @@
 <template>
-  <article>
+  <article class="home">
     <section class="featuredVillagers">
       <birthday-villager id="birthday"></birthday-villager>
       <villager-of-the-day id="votd"></villager-of-the-day>
@@ -42,7 +42,7 @@ export default {
 </script>
 
 <style>
-article{
+article .home{
 display: grid;
 grid-template-areas: 
 "featured"
@@ -50,11 +50,24 @@ grid-template-areas:
 }
 .featuredVillagers{
   grid-area: featured;
+  display: flex;
+  justify-content: space-around;
 }
 .searchBars{
   grid-area: searchBars;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+#name,
+button,
+select {
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+  border: 1px solid #542312;
+  background-color: #f3d77d;
+  border-radius: 10px;
+  margin: 10px;
+  height: 2.2rem;
 }
 </style>
